@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body {
+            background-image: url(Plano\ de\ Fundo2.jpg);
+            background-position: center center;
+            .conteudo {
+    padding: 20px;
+    color: rgb(0, 0, 0); /* Cor do texto no conteúdo */
+}
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Cor de fundo translúcida */
+}
+
+.redes-sociais {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.redes-sociais li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.redes-sociais li a img {
+    width: 40px; /* Tamanho dos ícones */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.redes-sociais li a img:hover {
+    transform: scale(1.2); /* Efeito de aumento ao passar o mouse */
+}
+
+    .icones {
+        display: flex;
+        justify-content: center;
+    }
+
+    .icones a {
+        margin: 0 10px; /* Espaçamento entre os ícones */
+        text-decoration: none;
+        color: white; /* Cor dos ícones */
+    }
+            .caixa-texto {
+        width: 500px; /* Largura fixa da caixa de texto */
+        height: 150px; /* Altura fixa da caixa de texto */
+        border: 3px dashed #000000; /* Borda riscada para visualização */
+        padding: 10px; /* Espaçamento interno para conteúdo */
+        box-sizing: border-box; /* Inclui a espessura da borda no tamanho total */
+        background-color: BurlyWood; /* Cor de fundo bege */
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+            
+            .titulo{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            .outra-classe {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centraliza as imagens horizontalmente */
+    }
+    .outra-classe img {
+        margin-top: 1cm; /* Espaço de aproximadamente 2cm entre as imagens */
+        margin-bottom: 0.5cm;
+    }
+    }
+            .container {
+        display: flex;
+        justify-content: center; /* Centraliza as imagens horizontalmente */
+        margin: 0 auto;
+        width: 700px; /* Largura do contêiner */
+
+    }
+    .imagem-wrapper {
+        position: relative;
+        margin: 0 25px; /* Espaço entre as imagens */
+    }
+    .imagem {
+        width: 225px;
+        height: 250px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .imagem:hover {
+        transform: scale(1.2); /* Aumenta o tamanho da imagem em 20% no hover */
+    }
+    .texto {
+        position: absolute;
+        top: -20px; /* Distância do topo da imagem */
+        left: 0; /* Alinhamento horizontal do texto */
+        right: 0;
+        text-align: center; /* Alinhamento do texto */
+        color: black; /* Cor do texto */
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: rgba(0, 0, 0, 0.056); /* Cor translúcida */
+    }
+    .contact-info {
+        display: flex;
+        align-items: center;
+    }
+    .contact-info img {
+        margin-right: 10px;
+    }
+    }
+    </style>
+    <body style="font-family: 'Times New Roman', Times, serif">
+        
+        <div class="conteudo">
+            <div class="header">
+                <div class="contact-info">
+                    <img src="whats.png" alt="WhatsApp" width="40px">
+                    <span>WhatsApp: +55 123 456 789</span>
+                </div>
+                <div class="contact-info">
+                    <img src="gmail.png" alt="Gmail"width="40px">
+                    <span>CervejariaMaravista@gmail.com</span>
+                </div>
+            </div>
+            
+<div class="outra-classe">
+    <img src="Barco.png" alt="Imagem 1"width="642" height="136">
+    <img src="Header Nossas Cervejas.png" alt="Imagem 2" width="642">
+</div>
+
+
+                <div class="container">
+                    <div class="imagem-wrapper">
+                        <a href="file:///C:/Users/Vinicius%20Laier/Documents/Cervejaria%20Maravista/Site/p%C3%A1ginaMunichHelles.html">
+                            <img class="imagem" src="Helles.jpg" alt="Munich Helles">
+                            <div class="texto"></div>
+                        </a>
+                    </div>
+                    <div class="imagem-wrapper">
+                        <a href="link_para_segunda_imagem">
+                            <img class="imagem" src="Blonde.jpg" alt="Blonde Ale">
+                            <div class="texto"></div>
+                        </a>
+                    </div>
+                    <div class="imagem-wrapper">
+                        <a href="link_para_terceira_imagem">
+                            <img class="imagem" src="Helles.jpg" alt="Brasileirinha">
+                            <div class="texto"></div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+                <footer class="rodape">
+                    <ul class="redes-sociais">
+                        <li><a href="#"><img src="Facebook.png" alt="Facebook"target="_blank"></a></li>
+                        <li><a href="#"><img src="x.png" alt="Twitter"target="_blank"></a></li>
+                        <li><a href="https://www.instagram.com/cervejariamaravista/"target="_blank"><img src="Instagram_icon.png" alt="Instagram"></a></li>
+                        <li><a href="https://www.youtube.com/@CervejariaMaravista"target="_blank"><img src="youtube.png" alt="YouTube"></a></li>
+                    </ul>
+                </footer>
+                <div class="caixa-texto">
+                    Idealizada por dois estudandes de engenharia química da UFRJ, a Cervejaria Maravista entende como é sagrado o processo de fabricação de cerveja e foi fundada para aprimorar, estudar e defender essa arte milenar. Utilizando apenas maltes de alta qualidade e bons lúpulos temos como missão levar cervejas de estilos autênticos ao Brasil para que nossos consumidores disfrutem de momentos especiais e inesquecíveis acompanhados de nossa cerveja.
+                </div>
+
+                <address>Rua Edma Rodrigues Valadão 269, Camboínhas, Niterói - RJ. "E conhecerão a verdade, e a verdade os libertará" João 8:32</address>
+
+
+</html>
